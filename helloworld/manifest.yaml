@@ -1,0 +1,21 @@
+version: v1
+type: problem
+name: Hello World!
+author:
+  owner: enigma
+  maintainer:
+  - hillcrestpaul0719
+  - hillcrestenigma
+metadata:
+  points: 1
+  partial: False
+  limit:
+    time: 1 # in seconds
+    memory: 64 # in MB
+  category:
+  - Implementation
+  description: description.md
+judge:
+  grader: grader.py
+  args:
+  - testcase_dir: testcases

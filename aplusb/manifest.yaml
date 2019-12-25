@@ -1,0 +1,21 @@
+version: v1
+type: problem
+name: A plus B
+author:
+  owner: enigma
+  maintainer:
+  - hillcrestpaul0719
+  - hillcrestenigma
+metadata:
+  points: 3
+  partial: True
+  limit:
+    time: 1 # in seconds
+    memory: 64 # in MB
+  category:
+  - Implementation
+  description: description.md
+judge:
+  grader: grader.py
+  args:
+  - testcase_dir: testcases

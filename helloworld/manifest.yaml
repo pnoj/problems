@@ -2,10 +2,8 @@ version: v1
 type: problem
 name: Hello World!
 author:
-  owner: enigma
-  maintainer:
-  - hillcrestpaul0719
-  - hillcrestenigma
+- hillcrestpaul0719
+- hillcrestenigma
 metadata:
   points: 1
   partial: False
@@ -14,6 +12,7 @@ metadata:
     memory: 64 # in MB
   category:
   - Implementation
+  type: []
   description: description.md
 judge:
   grader:

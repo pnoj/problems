@@ -2,10 +2,8 @@ version: v1
 type: problem
 name: A plus B
 author:
-  owner: enigma
-  maintainer:
-  - hillcrestpaul0719
-  - hillcrestenigma
+- hillcrestpaul0719
+- hillcrestenigma
 metadata:
   points: 3
   partial: True
@@ -14,6 +12,7 @@ metadata:
     memory: 64 # in MB
   category:
   - Implementation
+  type: []
   description: description.md
 judge:
   grader:

@@ -16,6 +16,6 @@ metadata:
   description: description.md
 judge:
   grader:
-    url: https://paullee-cdn.nyc3.digitaloceanspaces.com/pnoj/graders/standard.py
+    url: https://cdn.paullee.dev/pnoj/graders/standard.py
   args:
     testcase_dir: testcases

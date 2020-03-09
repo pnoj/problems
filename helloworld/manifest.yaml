@@ -2,8 +2,7 @@ version: v1
 type: problem
 name: Hello World!
 author:
-- hillcrestpaul0719
-- hillcrestenigma
+- Enigma
 metadata:
   points: 1
   partial: False
@@ -11,11 +10,12 @@ metadata:
     time: 1 # in seconds
     memory: 64 # in MB
   category:
+  - Classics
+  type:
   - Implementation
-  type: []
   description: description.md
 judge:
   grader:
-    url: https://paullee-cdn.nyc3.digitaloceanspaces.com/pnoj/graders/standard.py
+    url: https://cdn.paullee.dev/pnoj/graders/standard.py
   args:
     testcase_dir: testcases
